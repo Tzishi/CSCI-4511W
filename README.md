@@ -1,16 +1,22 @@
 # Search
 Sudoku Puzzle Solver for CSCI 4511W 2016 Fall
 
-Requested information
-  All parts are implemented
-  No bug exist in the program
+####Requested information
+
+  All parts are implemented.
+  
+  No bug exist in the program.
+  
   Pruning: Have duplicates in rows, columns and boxes.
-  No modification to BFS
+  
+  No modification to BFS.
+  
   Example: 
   p1 = [[3,4,1,0],
         [0,2,0,0],
         [0,0,2,0],
         [0,1,4,3]]
+        
   output:
     [3, 4, 1, 2]
     [1, 2, 3, 4]
@@ -23,6 +29,7 @@ Requested information
         [0,0,0, 0,0,4],
         [6,3,0, 0,2,0],
         [0,2,0, 0,3,1]]
+        
   output:
     [1, 5, 6, 3, 4, 2]
     [2, 4, 3, 1, 5, 6]
@@ -40,6 +47,7 @@ Requested information
         [1,0,8, 5,0,0, 0,0,0],
         [6,0,0, 0,0,0, 0,4,0],
         [0,5,2, 0,8,6, 0,0,0]]
+        
   output:
     [3, 8, 5, 6, 1, 2, 4, 7, 9]
     [9, 4, 6, 7, 3, 5, 2, 8, 1]
